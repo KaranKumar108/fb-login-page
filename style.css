@@ -1,0 +1,95 @@
+body {
+  background: #f0f2f5;
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main {
+  color: rgba(24, 119, 242, 255);
+}
+.recent {
+  color: rgba(28, 30, 33, 255);
+}
+.click {
+  color: rgba(108, 105, 115, 255);
+}
+.login {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 12px 0px;
+  color: white;
+  width: 100%;
+  margin-top: 12px;
+}
+.fgtpass {
+  cursor: pointer;
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+}
+.create {
+  color: white;
+  border: none;
+  font-weight: bolder;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  background-color: #42b72a;
+  width: 200px;
+  margin: 24px auto 15px auto;
+}
+div.right form {
+  border: 1px solid #dddfe2;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 4px 20px #d1cccc;
+}
+div.right input {
+  font-size: 1.1em;
+  padding: 16px 16px;
+  width: 330px;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  margin: 8px 0 4px 0;
+}
+::placeholder {
+  color: gray;
+  opacity: 0.6;
+}
+
+.right form a {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #dadde1;
+  padding: 20px 125px;
+  text-align: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right p {
+  line-height: 30px;
+}
+.right p a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
