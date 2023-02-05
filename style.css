@@ -4,10 +4,14 @@ body {
   box-sizing: border-box;
 
 }
+
 .container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.right{
+  margin-right: 150px;
 }
 .main {
   color: rgba(24, 119, 242, 255);
@@ -28,13 +32,20 @@ body {
   width: 100%;
   margin-top: 12px;
 }
+.login:hover {
+  background-color: #1168da;
+  }
 .fgtpass {
   cursor: pointer;
   text-decoration: none;
   color: #1877f2;
   font-size: 14px;
   font-weight: 500;
+  width: 40%;
 }
+.fgtpass:hover {
+  text-decoration: underline;
+ }
 .create {
   color: white;
   border: none;
@@ -47,6 +58,9 @@ body {
   width: 200px;
   margin: 24px auto 15px auto;
 }
+.create:hover {
+  background-color: #38a921;
+ }
 div.right form {
   border: 1px solid #dddfe2;
   padding: 10px;
@@ -92,4 +106,34 @@ div.right input {
   text-decoration: none;
   color: black;
   font-weight: bolder;
+}
+.main {
+  font-size: 2.2em;
+  font-weight: 700;
+  line-height: 50px;
+}
+.left {
+  /* display: flex;
+  flex-direction: column; */
+  margin-left: 150px;
+}
+.recent {
+  font-size: 1.7em;
+  font-weight: lighter;
+  line-height: 8px;
+}
+
+.left > p {
+  line-height: 8px;
+}
+
+.left img {
+  width: 30%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: inline;
+  /* width: fit-content; */
+}
+.imgdecoration > p {
+  margin-left: 25px;
 }
